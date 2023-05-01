@@ -18,6 +18,9 @@ body {
     background-color: red;
     text-align: center;
     padding: .2%;
+    font-size: 2em;
+    font-weight: bold;
+    color: blue;
 }
 
 .optionsBar{
