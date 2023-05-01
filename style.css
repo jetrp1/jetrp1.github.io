@@ -51,7 +51,6 @@ body {
     padding: 2px;
 }
 
-
 .mainHeader {
     width: 100%;
     height: 50%;
@@ -77,8 +76,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
-
 
 .aboutSection {
     padding-top: 5%;
