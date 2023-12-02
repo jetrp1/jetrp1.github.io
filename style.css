@@ -114,7 +114,6 @@ p2 {
     display: flex;
     justify-content: center;
     border: white;
-    border-width: 5px 5px;
 }
 
 .projectItem {
@@ -127,6 +126,8 @@ p2 {
     text-align: center;
     border: black;
     border-color: black;
+    border-width: 5px 5px;
+    margin: 10px 10px;
 }
 
 .projectItem:hover {
@@ -140,6 +141,7 @@ p2 {
     width: 30%;
     padding: 5%;
     text-align: center;
+    margin: 10px 10px;
 }
 
 .projectDescription {
