@@ -8,5 +8,14 @@ The home page is a custom built website, using TailwindCSS. The index.html file 
 
 to edit this page use the following commands:
 ```
-
+npm install
+npm run build
 ``` 
+
+Any changed made by tailwindCSS here should be committed to the Repo
+
+### for Devloping in hugo
+
+```
+hugo build -e devlopment
+```
