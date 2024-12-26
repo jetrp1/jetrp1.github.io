@@ -1,0 +1,49 @@
+# SEO keywords and description for your site.
+keywords = "hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind"
+subtitle = "Ryan Peel's personal Tech and Cyber Blog"
+
+# dir name of your blog content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "posts"
+
+toc = false
+
+jsonLD = true
+
+showAuthor = true
+
+[author]
+    name = "Ryan Peel"
+    email = "email@email.com"
+
+[header]
+  logo = "headshot_1024.jpg"
+
+[footer]
+  since = 2024
+  poweredby = false
+
+[social_media]
+  [[social_media.items]]
+    enabled = true
+    title = 'Twitter'
+    icon = 'brand-x'
+    link = 'https://x.com/jetrp1'
+
+  [[social_media.items]]
+    enabled = true
+    title = 'LinkedIn'
+    icon = 'brand-linkedin'
+    link = 'https://www.linkedin.com/in/ryanpeeltexas/'
+
+  [[social_media.items]]
+    enabled = true
+    title = 'Github'
+    icon = 'brand-github'
+    link = 'https://github.com/jetrp1'
+
+  # will be used as the manifest.json file and merge the default one
+  # https://developer.mozilla.org/en-US/docs/Web/Manifest
+  # https://web.dev/add-manifest/
+  [manifest]
+  description = "Blog of Ryan Peel"
