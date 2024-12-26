@@ -1,4 +1,4 @@
-baseURL = 'https://www.trdp.dev/'
+baseURL = 'https://www.trdp.dev/blog/'
 title = "Ryan Peel's Blog"
 copyright = "Ryan Peel"
 pagination.pagerSize = 10
