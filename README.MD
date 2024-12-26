@@ -1,9 +1,21 @@
-# The Code behind my portfolio pages
-Here lies the code for the [TRDP.dev](https://www.trdp.dev) website. Often I have this same content also on [TheRealDealPeel.com](https://www.therealdealpeel.com) but sometimes that pages is changed while testing another project or another version of this page.
+## Here lies Ryan's proftolio page and Blog
 
-#### Built using the following tools
-- TailwindCSS
-- VS Code
+There are two parts to this page, which are managed seperatly. The Homepage is custom built, then the blog page is run by Hugo.
 
-#### Deployed with Cloudflare Pages
-- Page is intended to be static so as to always fall into the free tier.
+### The Homepage
+
+The home page is a custom built website, using TailwindCSS. The index.html file is located in the layouts folder. The static folder contains the images, javascript and css files for the homepage. while the package.json in the root directory contains the node info to make editing this page easy. 
+
+to edit this page use the following commands:
+```
+npm install
+npm run build
+``` 
+
+Any changed made by tailwindCSS here should be committed to the Repo
+
+### for Devloping in hugo
+
+```
+hugo build -e devlopment
+```
