@@ -13,7 +13,7 @@ categories = [
     "Hardware",
 ]
 series = ["Hardware Upgrades"]
-aliases = ["Flashing H330"]
+aliases = ["replacing-h730"]
 toc = true
 +++
 
