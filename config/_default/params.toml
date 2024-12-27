@@ -17,7 +17,7 @@ showAuthor = true
     email = "email@email.com"
 
 [header]
-  logo = "headshot_1024.jpg"
+  logo = "img/headshot_1024.jpg"
 
 [footer]
   since = 2024
