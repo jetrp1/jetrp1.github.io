@@ -2,7 +2,7 @@
 title = 'OverTheWire - Bandit'
 author = "Ryan Peel"
 date = '2024-01-13'
-draft = true
+draft = false
 description = "Over The Wire Bandit box"
 categories = [
     "Capture the Flag",
