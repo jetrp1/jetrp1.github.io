@@ -1,7 +1,7 @@
 +++
 title = 'Setting up a new VPS'
 author = "Ryan Peel"
-date = '2025-1-28'
+date = '2025-01-28'
 draft = false
 description = "My home internet has no easy way for a public connection. I am behind a double NAT and I am not authorized to make changes to the second router's connection. There are many solutions to this problem, all with their pros and cons. I chose to use a VPS running reverse proxy software."
 tags = [
