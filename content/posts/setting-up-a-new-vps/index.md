@@ -11,6 +11,7 @@ tags = [
 ]
 categories = [
     "Software",
+    "Homelab",
 ]
 series = ["Homelab"]
 aliases = ["Setting up docker"]
