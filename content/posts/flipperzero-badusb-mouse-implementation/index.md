@@ -8,7 +8,8 @@ description = "I often found myself automating various functionality and wanting
 tags = [
     "Flipper Zero", 
     "C/C++", 
-    "BadUSB"
+    "BadUSB",
+    "Automation"
 ]
 categories = [
     "Mini Projects",
