@@ -25,10 +25,10 @@ function typingAnimation(messageContent, el, printingDelay, deletingDelay, print
 }
 
 let messages = [
-    'Software Engineer.',
-    'Security Engineer.',
-    'System Admin.',
-    'Tech Enthusiast.',
+    'Software Engineer',
+    'Security Engineer',
+    'System Admin',
+    'Tech Enthusiast',
 
 ];
 const elm = document.getElementById("subHead");
