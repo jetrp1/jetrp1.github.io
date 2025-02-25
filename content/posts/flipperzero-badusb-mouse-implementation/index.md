@@ -2,7 +2,7 @@
 +++
 title = 'Adding Mouse control functionality to the Bad USB on the Flipper Zero'
 author = "Ryan Peel"
-date = '2012-02-19'
+date = '2025-02-19'
 draft = false
 description = "I often found myself automating various functionality and wanting to be able to trigger a mouse click. This project added basic mouse functionality to the BadUSB App on the Flipper Zero"
 tags = [
