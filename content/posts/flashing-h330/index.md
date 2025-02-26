@@ -17,8 +17,13 @@ aliases = ["replacing-h730"]
 toc = true
 +++
 
-### Why
+#### A correction to the previous version
 
+When I wrote this post I was under the understanding that the Dell H730 would not support ZFS, even in its RAID mode. Some commenters in a recent reddit [post](https://www.reddit.com/r/homelab/comments/1ixpfed/flashing_h330_over_to_hba330_link/) have shared that this is not the case. while I have not tested this yet myself it seems that i was wrong. The Flashing process is the same though and i can verify that that does work since i have ben using that card since i flashed it back in December.
+
+*This edit was made on Feb 25 2025*
+
+### Why
 My primary lab server is a Dell R730xd, it came with a Perc H730 raid card which works quite well as a hardware raid card. The Dell 730 is a great raid card, it has features such as a battery backed cache, write-back caching, and supports a great selection of raid levels, what it does not do is give me direct access to the drives. I want to use ZFS on my system and this presents a problem. I recently purchased a Dell H330 Mini Mono off eBay to replace my H730 raid card. While this card has fewer features it can be flashed with IT mode firmware which will give direct access to the drives, perfect for my ZFS needs. Here are the steps I took to install the card and get it flashed with the HBA330 firmware: 
 
 ### The Plan
