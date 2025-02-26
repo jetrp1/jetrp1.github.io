@@ -1,3 +1,4 @@
 [submodule "themes/tailwind"]
 	path = themes/tailwind
 	url = https://github.com/jetrp1/hugo-theme-tailwind.git
+	branch = main
