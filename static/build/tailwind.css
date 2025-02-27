@@ -520,6 +520,9 @@ video {
 .w-1\/2 {
   width: 50%;
 }
+.w-4\/5 {
+  width: 80%;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
