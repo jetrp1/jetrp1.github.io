@@ -20,10 +20,6 @@ toc = true
 +++
 
 
-# Flipper Zero BadUSB Mouse Implementation 
-#BadMouse  #Projects
-
-
 # BadUSB: Mouse Control
 
 I often found myself automating various functionality and wanting to be able to trigger a mouse click. This project added basic mouse functionality to the BadUSB App on the Flipper Zero. Additionally this makes mouse movement more accessible for research on how this type of movement can be used in a security sensitive environment.
