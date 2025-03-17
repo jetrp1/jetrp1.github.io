@@ -2,7 +2,7 @@
 title = 'One Billion Row Challenge in Python'
 author = "Ryan Peel"
 date = '2025-03-15'
-draft = true
+draft = false
 description = "This post documents my attempt at the 1 Billion Rows Challenge using pure Python, focusing on optimizing file reading, parallel processing, and data parsing for performance gains. Through various improvements, I reduced execution time from 1733 seconds to 144 seconds, demonstrating significant speedup without external dependencies."
 categories = [
     "Performance Optimization",
