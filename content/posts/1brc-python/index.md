@@ -22,7 +22,7 @@ This is my attempt at the 1 Billion Rows Challenge in Python.
 [Original Challenge](https://github.com/gunnarmorling/1brc)  
 [My Code](https://github.com/jetrp1/1brc)
 
-### Inspiration and Attribution
+## Inspiration and Attribution
 
 Some ideas for this came from a few sources, listed below:
 - Doug Mercer [video](https://www.youtube.com/watch?v=utTaPW32gKY&t=125s)
@@ -30,15 +30,15 @@ Some ideas for this came from a few sources, listed below:
 
 While I could simply follow these and have a working, fast implementation, that would not help me learn. So, while I am taking ideas from these sources, I am not following them exactly. However, I expect that my implementation will be fairly similar by the time I am done.
 
-### Measurement
+## Measurement
 
 I'll use `hyperfine` to benchmark my script, running three tests with one warm-up run and the time is an average of 3 runs.
 
-### Data Generation
+## Data Generation
 
 I am using a `create_measurements.py` file that I built myself since I do not want to install a Java environment on my system. You can find it in the repo, and I even performed a bit of speed analysis on it.
 
-### Goal / Target
+## Goal / Target
 
 I have created a baseline to work from. It is quite poor, averaging around 25 minutes on my machine. I ran Doug Mercer's "doug booty v4" version on my machine, and it completed in around 2 minutes. My goal is to get to a similar range.
 
@@ -48,7 +48,7 @@ Some things to note:
 
 These two factors contribute to my script running much slower than the time Doug gets in his video.
 
-### Diagnostic Tools
+## Diagnostic Tools
 
 Some tools I used:
 - Multiple sizes of measurement files
@@ -56,7 +56,7 @@ Some tools I used:
 - `time` (GNU tool)
 - `viztracer` (python profiler)
 
-### Optimization Ideas
+## Optimization Ideas
 
 Some ideas for optimizing this code:
 - Parallel Processing
@@ -123,7 +123,7 @@ The code is less readable but much faster.
 |:---|---:|---:|---:|---:|
 | `pypy3 ./calculate_average_int.py ./measurements/1B_Measurements.csv` | 144.804 ± 0.524 | 144.327 | 145.365 | 1.00 |
 
-### Final Results
+## Final Results
 
 With all optimizations, I reduced execution time from **1733 seconds to 144 seconds**. This meets my goal and represents a massive improvement! 🚀
 
