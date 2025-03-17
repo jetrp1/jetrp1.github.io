@@ -19,7 +19,7 @@ toc = false
 
 This is my attempt at the 1 Billion Rows Challenge in Python.
 
-[Original Challenge](https://github.com/gunnarmorling/1brc)
+[Original Challenge](https://github.com/gunnarmorling/1brc)  
 [My Code](https://github.com/jetrp1/1brc)
 
 ### Inspiration and Attribution
